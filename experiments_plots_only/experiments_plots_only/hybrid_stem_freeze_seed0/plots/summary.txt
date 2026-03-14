@@ -1,0 +1,4 @@
+csv: /WAVE/projects/oignat_lab/Parth-Personal/AudioProj/DTFAT/experiments/hybrid_stem_freeze_seed0/result.csv
+epochs_plotted: 40
+best_epoch_by_col0: 37
+best_value_col0: 0.344853

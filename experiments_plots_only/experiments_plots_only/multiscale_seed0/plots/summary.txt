@@ -1,0 +1,4 @@
+csv: /WAVE/projects/oignat_lab/Parth-Personal/AudioProj/DTFAT/experiments/multiscale_seed0/result.csv
+epochs_plotted: 40
+best_epoch_by_col0: 40
+best_value_col0: 0.291014

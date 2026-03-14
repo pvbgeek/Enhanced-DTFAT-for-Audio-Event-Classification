@@ -1,0 +1,4 @@
+csv: /WAVE/projects/oignat_lab/Parth-Personal/AudioProj/DTFAT/experiments/attn_pool_seed0/result.csv
+epochs_plotted: 100
+best_epoch_by_col0: 96
+best_value_col0: 0.128068
