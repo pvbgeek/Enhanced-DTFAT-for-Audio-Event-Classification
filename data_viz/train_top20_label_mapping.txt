@@ -1,0 +1,21 @@
+Top class label mapping (short -> full)
+Music	Music
+Speech	Speech
+Vehicle	Vehicle
+Animal	Animal
+Inside, small room	Inside, small room
+Musical instrument	Musical instrument
+Singing	Singing
+Domestic animals, pets	Domestic animals, pets
+Guitar	Guitar
+Plucked string instrument	Plucked string instrument
+Car	Car
+Dog	Dog
+Percussion	Percussion
+Water	Water
+Wind instrument, woodwi...	Wind instrument, woodwind instrument
+Outside, urban or manmade	Outside, urban or manmade
+Outside, rural or natural	Outside, rural or natural
+Boat, Water vehicle	Boat, Water vehicle
+Brass instrument	Brass instrument
+Siren	Siren

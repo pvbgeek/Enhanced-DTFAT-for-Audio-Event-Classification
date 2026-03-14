@@ -1,0 +1,23 @@
+TRAIN:
+clips = 20550
+unique_classes_present = 527
+avg_labels_per_clip = 2.392
+fraction_clips_with_0_labels = 0.000
+class_freq_max_min_ratio = 133.326
+class_entropy = 5.3870
+class_gini = 0.3980
+top5_class_indices:counts = 137:5733, 0:5251, 300:825, 72:692, 506:689
+duration: not found in manifest
+sample_rate_hz: not found in manifest
+
+EVAL/VAL:
+clips = 18886
+unique_classes_present = 527
+avg_labels_per_clip = 2.548
+fraction_clips_with_0_labels = 0.000
+class_freq_max_min_ratio = 126.000
+class_entropy = 5.4746
+class_gini = 0.3791
+top5_class_indices:counts = 137:5166, 0:4894, 300:744, 72:648, 506:545
+duration: not found in manifest
+sample_rate_hz: not found in manifest
