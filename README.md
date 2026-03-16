@@ -80,10 +80,10 @@ A **residual convolutional block** is inserted before the standard transformer s
 
 **Why it works:** The shape-preserving residual design causes zero disruption to the pretrained backbone, resulting in minimal gradient conflict and the strongest single-stage performance.
 
-| Training Strategy | mAP |
-|-------------------|-----|
-| Single Stage | 0.34 |
-| Two Stage (freeze 10 epochs) | **0.35** |
+| Training Strategy | mAP | Weights |
+|-------------------|-----|---------|
+| Single Stage | 0.34 | — |
+| Two Stage (freeze 10 epochs) | **0.35** | [Download](https://drive.google.com/drive/folders/1WZtv7zOC5xZxwtGxr5yiOZbKBqiYHqQ6?usp=sharing) |
 
 ---
 
@@ -239,14 +239,22 @@ conda activate dtfat
 
 Download the AudioSet balanced subset using one of the dataset links above and place the files under `egs/audioset/data/`.
 
-### 4. Train
+### 4. Download Pretrained Weights (Optional)
+
+The best-performing checkpoint (Hybrid Pre-Stem, Two-Stage, **0.35 mAP**) is available for direct evaluation:
+
+[**Download Model Weights (Google Drive)**](https://drive.google.com/drive/folders/1WZtv7zOC5xZxwtGxr5yiOZbKBqiYHqQ6?usp=sharing)
+
+Place the downloaded checkpoint under `egs/audioset/` before running `eval_run.sh`.
+
+### 5. Train
 
 ```bash
 cd egs/audioset
 bash train_run.sh
 ```
 
-### 5. Evaluate
+### 6. Evaluate
 
 ```bash
 cd egs/audioset
